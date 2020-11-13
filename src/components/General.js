@@ -18,7 +18,7 @@ class General extends Component{
   }
 
   render(){
-    const {name, email, phone} = this.props;
+    const {name, email, phone} = this.props.currentState;
     return(
       <div className="mt-4">
       <h4>General Information</h4>

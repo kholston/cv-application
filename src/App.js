@@ -45,7 +45,8 @@ class App extends Component {
         <header className="App-header">
           <h1 className="text-center">CV Application</h1>
         </header>
-        <General onChange={this.handleChange} name={this.state.name} />
+        <General onChange={this.handleChange} currentState={this.state} />
+        <hr/>
       </div>
     )
   }
