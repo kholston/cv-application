@@ -59,6 +59,7 @@ class App extends Component {
         </header>
         <General onChange={this.handleChange} currentState={this.state} edit={this.changeEditState}/>
         <hr/>
+        <Education onChange={this.handleChange} currentState={this.state} edit={this.changeEditState}/>
       </div>
     )
   }
